@@ -26,7 +26,7 @@ GM_xmlhttpRequest({
             const obj = JSON.parse(response.responseText)
             console.log(obj)
             if (!localStorage.__discorduserid) localStorage.__discorduserid = prompt("Discord userid?")
-            if (!localStorage.__alertSound) localStorage.__alertSound = "https://raw.githubusercontent.com/huaqiyingxue/12/refs/heads/main/afk%20check.mp3"
+            localStorage.__alertSound = "https://raw.githubusercontent.com/huaqiyingxue/12/refs/heads/main/afk%20check.mp3"
             if (!localStorage.__usertoken) localStorage.__usertoken = (Math.random() + 1).toString(36).substring(2)
             if (!localStorage.__sk__) {
                 localStorage.__sk__ = JSON.stringify({
