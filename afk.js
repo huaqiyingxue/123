@@ -32,7 +32,7 @@ GM_xmlhttpRequest({
                 localStorage.__sk__ = JSON.stringify({
                     afk: true,
                     quickSquad: false,
-                    superReport: true
+                    superReport: false
                 })
             }
 
