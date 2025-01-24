@@ -31,7 +31,7 @@ GM_xmlhttpRequest({
             if (!localStorage.__sk__) {
                 localStorage.__sk__ = JSON.stringify({
                     afk: true,
-                    quickSquad: false,
+                    quickSquad: ture,
                     superReport: true
                 })
             }
