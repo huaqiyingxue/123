@@ -26,13 +26,13 @@ GM_xmlhttpRequest({
             const obj = JSON.parse(response.responseText)
             console.log(obj)
             if (!localStorage.__discorduserid) localStorage.__discorduserid = prompt("Discord userid?")
-            if (!localStorage.__alertSound) localStorage.__alertSound = "https://raw.githubusercontent.com/osso-a/lmrynzfgfr/refs/heads/main/9u7njxxjg8/4nt7dwcs5c.mp3"
+            if (!localStorage.__alertSound) localStorage.__alertSound = "https://raw.githubusercontent.com/huaqiyingxue/12/refs/heads/main/afk55.mp3"
             if (!localStorage.__usertoken) localStorage.__usertoken = (Math.random() + 1).toString(36).substring(2)
             if (!localStorage.__sk__) {
                 localStorage.__sk__ = JSON.stringify({
                     afk: true,
-                    quickSquad: ture,
-                    superReport: true
+                    quickSquad: false,
+                    superReport: false
                 })
             }
 
