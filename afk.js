@@ -28,13 +28,12 @@ GM_xmlhttpRequest({
             if (!localStorage.__discorduserid) localStorage.__discorduserid = prompt("Discord userid?")
             localStorage.__alertSound = "https://raw.githubusercontent.com/huaqiyingxue/12/refs/heads/main/jntm.mp3"
             if (!localStorage.__usertoken) localStorage.__usertoken = (Math.random() + 1).toString(36).substring(2)
-            if (!localStorage.__sk__) {
                 localStorage.__sk__ = JSON.stringify({
                     afk: true,
                     quickSquad: false,
                     superReport: false
                 })
-            }
+            
 
             let t1, t2, a, b, c, d, e, w = 300, z = 5 * 60 * 1000
             t1 = t2 = a = b = c = d = e = 0
